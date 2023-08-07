@@ -1,0 +1,128 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+  <!-- Background -->
+  <rect width="900" height="520" fill="#0f172a"/>
+  <!-- Top bar -->
+  <rect width="900" height="44" fill="#1e293b"/>
+  <circle cx="20" cy="22" r="6" fill="#ef4444"/>
+  <circle cx="40" cy="22" r="6" fill="#f59e0b"/>
+  <circle cx="60" cy="22" r="6" fill="#22c55e"/>
+  <text x="420" y="27" fill="#94a3b8" font-size="13" text-anchor="middle">Cloud Cost Anomaly Engine</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="180" height="476" fill="#1e293b"/>
+  <text x="16" y="78" fill="#64748b" font-size="11">PROVIDERS</text>
+  <rect x="8" y="88" width="164" height="30" rx="4" fill="#334155"/>
+  <text x="20" y="108" fill="#e2e8f0" font-size="13">AWS (us-east-1)</text>
+  <rect x="8" y="124" width="164" height="30" rx="4" fill="transparent"/>
+  <text x="20" y="144" fill="#64748b" font-size="13">GCP (us-central1)</text>
+  <rect x="8" y="160" width="164" height="30" rx="4" fill="transparent"/>
+  <text x="20" y="180" fill="#64748b" font-size="13">Azure (eastus)</text>
+
+  <text x="16" y="230" fill="#64748b" font-size="11">SERVICES</text>
+  <text x="20" y="254" fill="#94a3b8" font-size="12">EC2</text>
+  <text x="20" y="274" fill="#94a3b8" font-size="12">RDS</text>
+  <text x="20" y="294" fill="#94a3b8" font-size="12">Lambda</text>
+  <text x="20" y="314" fill="#94a3b8" font-size="12">S3</text>
+  <text x="20" y="334" fill="#94a3b8" font-size="12">CloudFront</text>
+
+  <!-- Main content -->
+  <!-- Stat cards -->
+  <rect x="196" y="60" width="168" height="80" rx="6" fill="#1e293b"/>
+  <text x="210" y="82" fill="#64748b" font-size="11">TOTAL SPEND (30D)</text>
+  <text x="210" y="114" fill="#e2e8f0" font-size="26" font-weight="bold">$48,291</text>
+  <text x="210" y="132" fill="#ef4444" font-size="12">+18.4% vs prev period</text>
+
+  <rect x="376" y="60" width="168" height="80" rx="6" fill="#1e293b"/>
+  <text x="390" y="82" fill="#64748b" font-size="11">OPEN ANOMALIES</text>
+  <text x="390" y="114" fill="#f59e0b" font-size="26" font-weight="bold">7</text>
+  <text x="390" y="132" fill="#64748b" font-size="12">3 high confidence</text>
+
+  <rect x="556" y="60" width="168" height="80" rx="6" fill="#1e293b"/>
+  <text x="570" y="82" fill="#64748b" font-size="11">BUDGET BURN</text>
+  <text x="570" y="114" fill="#e2e8f0" font-size="26" font-weight="bold">73%</text>
+  <text x="570" y="132" fill="#22c55e" font-size="12">on track for month</text>
+
+  <rect x="736" y="60" width="148" height="80" rx="6" fill="#1e293b"/>
+  <text x="750" y="82" fill="#64748b" font-size="11">SAVINGS FOUND</text>
+  <text x="750" y="114" fill="#22c55e" font-size="26" font-weight="bold">$6,120</text>
+  <text x="750" y="132" fill="#64748b" font-size="12">4 recommendations</text>
+
+  <!-- Anomaly table -->
+  <rect x="196" y="156" width="688" height="200" rx="6" fill="#1e293b"/>
+  <text x="212" y="178" fill="#e2e8f0" font-size="14" font-weight="bold">Anomalies</text>
+  <text x="758" y="178" fill="#3b82f6" font-size="12">Mark all resolved</text>
+
+  <!-- Table header -->
+  <rect x="196" y="186" width="688" height="28" fill="#0f172a"/>
+  <text x="212" y="204" fill="#64748b" font-size="11">SERVICE</text>
+  <text x="380" y="204" fill="#64748b" font-size="11">DATE</text>
+  <text x="490" y="204" fill="#64748b" font-size="11">ACTUAL</text>
+  <text x="600" y="204" fill="#64748b" font-size="11">EXPECTED</text>
+  <text x="718" y="204" fill="#64748b" font-size="11">CONFIDENCE</text>
+
+  <!-- Row 1 - anomaly -->
+  <rect x="196" y="214" width="688" height="34" fill="#1e293b"/>
+  <rect x="196" y="214" width="3" height="34" fill="#ef4444"/>
+  <text x="212" y="236" fill="#e2e8f0" font-size="13">EC2 / us-east-1</text>
+  <text x="380" y="236" fill="#94a3b8" font-size="12">2024-06-01</text>
+  <text x="490" y="236" fill="#ef4444" font-size="13" font-weight="bold">$4,281</text>
+  <text x="600" y="236" fill="#94a3b8" font-size="12">$2,100</text>
+  <rect x="718" y="222" width="70" height="18" rx="9" fill="#7f1d1d"/>
+  <text x="753" y="235" fill="#fca5a5" font-size="11" text-anchor="middle">94%</text>
+
+  <!-- Row 2 -->
+  <rect x="196" y="248" width="688" height="34" fill="#162032"/>
+  <rect x="196" y="248" width="3" height="34" fill="#f59e0b"/>
+  <text x="212" y="270" fill="#e2e8f0" font-size="13">RDS / us-east-1</text>
+  <text x="380" y="270" fill="#94a3b8" font-size="12">2024-06-02</text>
+  <text x="490" y="270" fill="#f59e0b" font-size="13" font-weight="bold">$1,840</text>
+  <text x="600" y="270" fill="#94a3b8" font-size="12">$940</text>
+  <rect x="718" y="256" width="70" height="18" rx="9" fill="#78350f"/>
+  <text x="753" y="269" fill="#fde68a" font-size="11" text-anchor="middle">78%</text>
+
+  <!-- Row 3 -->
+  <rect x="196" y="282" width="688" height="34" fill="#1e293b"/>
+  <rect x="196" y="282" width="3" height="34" fill="#f59e0b"/>
+  <text x="212" y="304" fill="#e2e8f0" font-size="13">Lambda / eu-west-1</text>
+  <text x="380" y="304" fill="#94a3b8" font-size="12">2024-06-03</text>
+  <text x="490" y="304" fill="#f59e0b" font-size="13" font-weight="bold">$612</text>
+  <text x="600" y="304" fill="#94a3b8" font-size="12">$280</text>
+  <rect x="718" y="290" width="70" height="18" rx="9" fill="#78350f"/>
+  <text x="753" y="303" fill="#fde68a" font-size="11" text-anchor="middle">71%</text>
+
+  <!-- Row 4 -->
+  <rect x="196" y="316" width="688" height="34" fill="#162032"/>
+  <rect x="196" y="316" width="3" height="34" fill="#64748b"/>
+  <text x="212" y="338" fill="#94a3b8" font-size="13">S3 / us-east-1</text>
+  <text x="380" y="338" fill="#94a3b8" font-size="12">2024-06-01</text>
+  <text x="490" y="338" fill="#94a3b8" font-size="13">$98</text>
+  <text x="600" y="338" fill="#94a3b8" font-size="12">$71</text>
+  <rect x="718" y="324" width="70" height="18" rx="9" fill="#334155"/>
+  <text x="753" y="337" fill="#94a3b8" font-size="11" text-anchor="middle">42%</text>
+
+  <!-- Spend chart area -->
+  <rect x="196" y="368" width="688" height="136" rx="6" fill="#1e293b"/>
+  <text x="212" y="390" fill="#e2e8f0" font-size="14" font-weight="bold">Daily Spend (30 days)</text>
+  <!-- Chart bars -->
+  <rect x="220" y="454" width="14" height="30" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="240" y="448" width="14" height="36" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="260" y="450" width="14" height="34" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="280" y="446" width="14" height="38" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="300" y="452" width="14" height="32" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="320" y="444" width="14" height="40" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="340" y="450" width="14" height="34" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="360" y="448" width="14" height="36" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="380" y="445" width="14" height="39" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="400" y="440" width="14" height="44" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="420" y="438" width="14" height="46" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="440" y="442" width="14" height="42" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="460" y="436" width="14" height="48" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="480" y="400" width="14" height="84" rx="2" fill="#ef4444"/>
+  <text x="487" y="396" fill="#ef4444" font-size="10" text-anchor="middle">!</text>
+  <rect x="500" y="444" width="14" height="40" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <rect x="520" y="442" width="14" height="42" rx="2" fill="#3b82f6" opacity="0.7"/>
+  <line x1="220" y1="484" x2="860" y2="484" stroke="#334155" stroke-width="1"/>
+  <text x="220" y="500" fill="#64748b" font-size="10">Jun 1</text>
+  <text x="487" y="500" fill="#ef4444" font-size="10">Jun 2</text>
+  <text x="840" y="500" fill="#64748b" font-size="10">Jun 30</text>
+</svg>
